@@ -1,0 +1,8 @@
+source;share/mavros_vicon/hook/cmake_prefix_path.ps1
+source;share/mavros_vicon/hook/cmake_prefix_path.dsv
+source;share/mavros_vicon/hook/cmake_prefix_path.sh
+source;share/mavros_vicon/local_setup.bash
+source;share/mavros_vicon/local_setup.dsv
+source;share/mavros_vicon/local_setup.ps1
+source;share/mavros_vicon/local_setup.sh
+source;share/mavros_vicon/local_setup.zsh
