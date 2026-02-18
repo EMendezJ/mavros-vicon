@@ -16,7 +16,7 @@ class MinimalPublisher : public rclcpp::Node{
 
       // Create subscription to the position of the UAV (posestamped) 
       vicon_subscriber = this->create_subscription<geometry_msgs::msg::PoseStamped>(
-				"/vicon/HexaDanyy/HexaDanyy", 10, std::bind(&MinimalPublisher::vicon_callback, this, std::placeholders::_1));
+				"/vicon/TelloMount1/TelloMount1", 10, std::bind(&MinimalPublisher::vicon_callback, this, std::placeholders::_1));
       // Create timer to publish the pose of the UAV
       timer = this->create_wall_timer(20ms, std::bind(&MinimalPublisher::timer_callback, this));
     }
@@ -31,11 +31,10 @@ class MinimalPublisher : public rclcpp::Node{
       geometry_msgs::msg::PoseStamped pose_out;
       pose_out.header = msg->header;
       pose_out.header.frame_id = "map";
-      // Same frame mapping as viconpub: position [0]=y, [1]=x, [2]=-z (NED)
-      pose_out.pose.position.x = msg->pose.position.y;
-      pose_out.pose.position.y = msg->pose.position.x;
+      pose_out.pose.position.x = msg->pose.position.x;
+      pose_out.pose.position.y = msg->pose.position.y;
       pose_out.pose.position.z = -1 * msg->pose.position.z;
-      // Same quaternion mapping as viconpub: q[0]=w, q[1]=y, q[2]=x, q[3]=-z -> (x,y,z,w)
+
       pose_out.pose.orientation.w = msg->pose.orientation.w;
       pose_out.pose.orientation.x = msg->pose.orientation.x;
       pose_out.pose.orientation.y = msg->pose.orientation.y;

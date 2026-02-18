@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target vicon_mavros_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vicon_mavros_publisher.dir/src/vicon_mavros_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable vicon_mavros_publisher[0m
+[100%] Built target vicon_mavros_publisher
+-- Install configuration: ""
+-- Installing: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/lib/mavros_vicon/vicon_mavros_publisher
+-- Set runtime path of "/home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/lib/mavros_vicon/vicon_mavros_publisher" to ""
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/ament_index/resource_index/package_run_dependencies/mavros_vicon
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/ament_index/resource_index/parent_prefix_path/mavros_vicon
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/environment/path.dsv
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/local_setup.bash
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/local_setup.sh
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/local_setup.zsh
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/local_setup.dsv
+-- Installing: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/package.dsv
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/ament_index/resource_index/packages/mavros_vicon
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/cmake/mavros_viconConfig.cmake
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/cmake/mavros_viconConfig-version.cmake
+-- Up-to-date: /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/package.xml

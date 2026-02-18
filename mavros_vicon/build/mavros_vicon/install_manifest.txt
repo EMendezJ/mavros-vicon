@@ -1,9 +1,7 @@
 /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/lib/mavros_vicon/vicon_mavros_publisher
 /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/ament_index/resource_index/package_run_dependencies/mavros_vicon
 /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/ament_index/resource_index/parent_prefix_path/mavros_vicon
-/home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/environment/ament_prefix_path.sh
 /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/environment/ament_prefix_path.dsv
-/home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/environment/path.sh
 /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/environment/path.dsv
 /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/local_setup.bash
 /home/emendezj/mavros-vicon/mavros_vicon/install/mavros_vicon/share/mavros_vicon/local_setup.sh
